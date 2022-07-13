@@ -2,6 +2,7 @@ name: ReVanced Test Build
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
